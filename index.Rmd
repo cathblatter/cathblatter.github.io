@@ -1,0 +1,31 @@
+---
+title: "About"
+description: | 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Presenting myself is not one of my strengths. For a reliable review I recommend
+to ask people who regularly spend time with me.
+
+Also, I like R.
+
+```{r, echo=TRUE, eval=FALSE}
+
+library(tidyverse)
+
+catherine %>% 
+  select(nursing, research, photography, sports, outdoor, everything()) %>%
+  filter(nursing_specialty %in% c("surgical", "geriatrics")) %>%
+  mutate(research_topic = quality*improvement) %>% 
+  mutate(research_interest = make(nursing == "healthier" for i in nurses 
+                                  {worldwide})) %>%
+  filter(photography %in% "nature" |
+           sports %in% c("running", "soccer") | 
+           outdoor %in% c("trekking", "nature", "hilleberg")) %>% 
+  mutate(happiness = ~ lm( .~sports+outdoor+coding+music, data = catherine))
+
+```
+

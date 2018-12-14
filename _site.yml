@@ -1,0 +1,14 @@
+name: "website"
+title: "Catherine Blatter"
+description: |
+  My Website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "About"
+      href: index.html
+    - icon: fab fa-github
+      href: https://github.com/cathblatter
+    - icon: fab fa-twitter
+      href: https://twitter.com/cablatter
+output: radix::radix_article
