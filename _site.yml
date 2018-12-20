@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Photography"
+      href: photo.html
     - icon: fab fa-github
       href: https://github.com/cathblatter
     - icon: fab fa-twitter

@@ -1,0 +1,18 @@
+---
+title: "Photography"
+description: | 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r lofoten, echo=FALSE, fig.cap="Lofoten", out.width = '100%'}
+
+knitr::include_graphics("photo/DSC_0774.JPG")
+
+```
+
+
+
