@@ -1270,14 +1270,6 @@
     font-weight: 300;
   }
   
-  .radix-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .radix-site-nav a:hover {
-    color: white;
-  }
   
   .radix-site-header {
   }
@@ -1315,7 +1307,18 @@
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
-<a href="photo.html">Photography</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Photography
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="iceland.html">Iceland</a>
+<a href="scandinavia.html">Scandinavia</a>
+<a href="random.html">random</a>
+</div>
+</div>
 <a href="https://github.com/cathblatter">
 <i class="fab fa-github"></i>
 </a>

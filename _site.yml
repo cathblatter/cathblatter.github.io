@@ -10,7 +10,13 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Photography"
-      href: photo.html
+      menu:
+        - text: "Iceland"
+          href: iceland.html
+        - text: "Scandinavia"
+          href: scandinavia.html
+        - text: "random"
+          href: random.html
     - icon: fab fa-github
       href: https://github.com/cathblatter
     - icon: fab fa-twitter

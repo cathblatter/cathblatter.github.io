@@ -1,0 +1,24 @@
+---
+title: "random places"
+description: | 
+  © Catherine Blatter, 2013-2018 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r switzerland, echo=FALSE, out.width = '10%', layout="l-screen-inset"}
+
+knitr::include_graphics("photo/DSC_0354.JPG")
+knitr::include_graphics("photo/DSC_1184.JPG")
+knitr::include_graphics("photo/DSC_1340.JPG")
+knitr::include_graphics("photo/DSC_1419.JPG")
+
+```
+
+```{r scotland, echo=FALSE, out.width = '10%', layout="l-screen-inset"}
+
+knitr::include_graphics("photo/DSC_1821.JPG")
+
+```
