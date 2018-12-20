@@ -1,0 +1,18 @@
+---
+title: "Iceland"
+description: | 
+  © Catherine Blatter, 2013-2018 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r iceland, echo=FALSE, out.width = '10%', layout="l-screen-inset"}
+
+knitr::include_graphics("photo/DSC_0155.JPG")
+knitr::include_graphics("photo/DSC_0126.JPG")
+knitr::include_graphics("photo/DSC_0039.JPG")
+knitr::include_graphics("photo/DSC_0217.JPG")
+knitr::include_graphics("photo/DSC_0411.JPG")
+```
