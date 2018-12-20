@@ -5,6 +5,15 @@
   font-weight: 300;
 }
 
+.radix-site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.radix-site-nav a:hover {
+  color: white;
+}
+
 
 .radix-site-header {
 }
