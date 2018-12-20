@@ -19,26 +19,29 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Catherine Blatter: About</title>
+  <title>Catherine Blatter: Welcome</title>
   
+  <meta property="description" itemprop="description" content="Somehow under construction - more information following soon."/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Catherine Blatter: About"/>
+  <meta property="og:title" content="Catherine Blatter: Welcome"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Somehow under construction - more information following soon."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Catherine Blatter"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Catherine Blatter: About"/>
+  <meta property="twitter:title" content="Catherine Blatter: Welcome"/>
+  <meta property="twitter:description" content="Somehow under construction - more information following soon."/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Welcome"]},{"type":"character","attributes":{},"value":["Somehow under construction - more information following soon."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1259,8 +1262,38 @@
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <style type="text/css">
+  .radix-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #003366;
+      font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .radix-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .radix-site-nav a:hover {
+    color: white;
+  }
+  
+  .radix-site-header {
+  }
+  
+  .radix-site-footer {
+  }
+  
+  @media print {
+    .radix-site-nav {
+      display: none;
+    }
+  }
+  </style>
   <!--/radix_placeholder_site_in_header-->
 
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -1269,7 +1302,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About","authors":[]}
+{"title":"Welcome","description":"Somehow under construction - more information following soon.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1280,7 +1313,8 @@
 <a href="index.html" class="title">Catherine Blatter</a>
 </div>
 <div class="nav-right">
-<a href="index.html">About</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
 <a href="https://github.com/cathblatter">
 <i class="fab fa-github"></i>
 </a>
@@ -1296,29 +1330,13 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About</h1>
-
+<h1>Welcome</h1>
+<p>Somehow under construction - more information following soon.</p>
 </div>
 
 
 <div class="d-article">
-<p>Presenting myself is not one of my strengths. For a reliable review I recommend to ask people who regularly spend time with me.</p>
-<p>Also, I like R.</p>
-<div class="layout-chunk" data-layout="l-body">
-<pre class="r"><code>
-library(tidyverse)
 
-catherine %&gt;% 
-  select(nursing, research, photography, sports, outdoor, everything()) %&gt;%
-  filter(nursing_specialty %in% c(&quot;surgical&quot;, &quot;geriatrics&quot;)) %&gt;%
-  mutate(research_topic = quality*improvement) %&gt;% 
-  mutate(research_interest = make(nursing == &quot;healthier&quot; for i in nurses 
-                                  {worldwide})) %&gt;%
-  filter(photography %in% &quot;nature&quot; |
-           sports %in% c(&quot;running&quot;, &quot;soccer&quot;) | 
-           outdoor %in% c(&quot;trekking&quot;, &quot;nature&quot;, &quot;hilleberg&quot;)) %&gt;% 
-  mutate(happiness = ~ lm( .~sports+outdoor+coding+music, data = catherine))</code></pre>
-</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

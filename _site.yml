@@ -5,10 +5,14 @@ description: |
 output_dir: "."
 navbar:
   right:
-    - text: "About"
+    - text: "Home"
       href: index.html
+    - text: "About"
+      href: about.html
     - icon: fab fa-github
       href: https://github.com/cathblatter
     - icon: fab fa-twitter
       href: https://twitter.com/cablatter
-output: radix::radix_article
+output: 
+  radix::radix_article:
+    css: styles.css

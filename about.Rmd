@@ -1,0 +1,29 @@
+---
+title: "About"
+description: | 
+  Presenting myself is not one of my strengths - for a reliable review I strongly recommend
+  to ask people who regularly spend time with me.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, echo=TRUE, eval=FALSE}
+
+library(tidyverse)
+
+catherine %>% 
+  select(nursing, research, photography, sports, outdoor, everything()) %>%
+  filter(nursing_specialty %in% c("surgical", "geriatrics")) %>%
+  mutate(research_topic = quality*improvement) %>% 
+  mutate(research_interest = make(nursing == "healthier" for i in nurses 
+                                  {worldwide})) %>%
+  filter(photography %in% "nature" |
+           sports %in% c("running", "soccer") | 
+           outdoor %in% c("trekking", "nature", "hilleberg")) %>% 
+  mutate(happiness = ~ lm( .~sports+outdoor+coding+music, data = catherine))
+
+```
+
+
