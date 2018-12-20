@@ -11,10 +11,10 @@ navbar:
       href: about.html
     - text: "Photography"
       menu:
-        - text: "Scandinavia"
-          href: sandinavia.html
         - text: "Iceland"
           href: iceland.html
+        - text: "Scandinavia"
+          href: scandinavia.html
         - text: "random"
           href: random.html
     - icon: fab fa-github
