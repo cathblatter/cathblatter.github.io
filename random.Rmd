@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r switzerland, echo=FALSE, out.width = '10%', layout="l-screen-inset"}
+```{r switzerland, echo=FALSE, out.width = '10%', layout="l-page"}
 
 knitr::include_graphics("photo/DSC_0354.JPG")
 knitr::include_graphics("photo/DSC_1184.JPG")
