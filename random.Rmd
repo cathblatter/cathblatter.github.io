@@ -17,7 +17,7 @@ knitr::include_graphics("photo/DSC_1419.JPG")
 
 ```
 
-```{r scotland, echo=FALSE, out.width = '10%', layout="l-screen-inset"}
+```{r scotland, echo=FALSE, out.width = '10%', layout="l-page"}
 
 knitr::include_graphics("photo/DSC_1821.JPG")
 

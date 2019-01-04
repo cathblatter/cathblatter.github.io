@@ -1,9 +1,10 @@
 ---
 title: "Welcome"
 description: | 
-  Somehow under construction - more information following soon.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+This page is somehow under construction - more information following soon.

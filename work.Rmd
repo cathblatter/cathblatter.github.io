@@ -1,0 +1,19 @@
+---
+title: "Work"
+description: | 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Code
+
+- Creating reproducible reports for the SHURP 2018-study with [shurp2018](https://cathblatter.github.io/shurp2018) 
+- UStaR (to be announced)
+
+
+
+### upcoming
+
+- will be announced
