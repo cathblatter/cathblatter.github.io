@@ -22,7 +22,7 @@ navbar:
     - icon: fab fa-github
       href: https://github.com/cathblatter
     - icon: fab fa-twitter
-      href: https://twitter.com/cablatter
+      href: https://twitter.com/cathblatter
 output: 
   radix::radix_article:
     css: styles.css
